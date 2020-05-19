@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="css/Styles.css">
+  <meta name="viewport" content="width=device-width">
+  <title>Projet Cartographie</title>
+  
+</head>
+<body>
+    <h1 class="1">Projet Cartographie</h1>
+    <h2>Présentation :</h2>
+    <p>Le but du projet et de montrer l'évolution du Covid-19 en Europe.</p>
+    <p>Grâce à <a href="https://www.data.gouv.fr/fr/" style="color:blue">data.gouv.fr</a> j'ai pu trouver les informations nécessaire pour avoir une table fusionné :<a href="Table jointuré.csv">Table CSV</a></p>
+    <h2>La carte :</h2>
+    <p> Avec les données présentent sur cette carte on peut répondre à quelques questions : </p>
+    <li> -A quelle niveau le Covid-19 a-t-il était présent sur le teritoire Européen ? </li>
+    <li> -Quels sont les pays les plus touchés (mort) par le Covid-19 ? </li>
+    <p> Voici le lien vers la carte : <a href="maCarte.html"> Carte</a>
+    
+    <h2>La création et les informations de la carte :</h2>
+    <p> Afin de créer la carte il faut d'une part importer Folium avec : import Folium <p>
+    <p> On entre ensuite les caractéristiques de base tel que : c= folium.Map(location=[51,10 ],zoom_start=5), j'ai choisi le centre de l'Europe comme location de départ.</p>
+    <p> J'ai aussi créer des popup afin de mettre les infos à l'intérieur : folium.Marker([50.74599	, 9.766473],popup="text"
+    <p> Pour les graphiques j'ai eu beaucoup de mal, je n'ai pas réussi à mettre les données de ma table dans des graphiques, j'ai par la suite essayé de le faire à la main mais encore une fois j'ai manqué de savoir. </p>
+    <p> J'ai quand même voulu rendre quelque chose et est donc opté pour une méthode moins belle et de moins bonne qualité : j'ai écrit une info pour chaque pays. Par exemple : folium.Marker([50.74599	, 9.766473],popup="En Allemagne, le 28 avril 2020, 6161 morts on été causé au total par le Covid-19").add_to(c)</p>
+<p class="slt"><a href="index.html"  >Pour aller a l'Index</a>
+</body>
+</html>
+
+    
+    

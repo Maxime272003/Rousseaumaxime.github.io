@@ -1,0 +1,35 @@
+import folium
+c= folium.Map(location=[51,10 ],zoom_start=5)
+
+folium.Marker([50.74599	, 9.766473],popup="En Allemagne, le 28 avril 2020, 6161 morts on été causé au total par le Covid-19").add_to(c)
+folium.Marker([47.200033, 13.199959],popup="En Autriche, le 28 avril 2020, 569 morts on été causé au total par le Covid-19").add_to(c)
+folium.Marker([50.728141,4.511679],popup="En Belgique, le 28 avril 2020, 7331 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([42.583782,25.35771],popup="En Bulgarie, le 28 avril 2020, 58 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([34.982301,33.145128],popup="A Chypre, le 28 avril 2020, 15 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([45.673257,16.483329],popup="En Croatie, le 28 avril 2020, 63 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([56.131198,9.116544],popup="Au Danemark, le 28 avril 2020, 434 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([40.340856,-3.082582],popup="En Espagne, le 28 avril 2020, 23822 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([58.752377,25.331907],popup="En Estonie, le 28 avril 2020, 50 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([63.763860,26.078146],popup="En Finlande, le 28 avril 2020, 199 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([46.954994, 2.396425],popup="En France, le 28 avril 2020, 23293 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([39.091474,21.932379],popup="En Grêce, le 28 avril 2020, 136 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([52.865196,-7.979459],popup="En Irlande, le 28 avril 2020, 1102 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([42.099006,13.518622],popup="En Italie, le 28 avril 2020, 26977 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([56.840649,24.753764],popup="En Lettonie, le 28 avril 2020, 13 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([55.350000,23.749999],popup="En Lituanie, le 28 avril 2020, 44 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([49.754361,6.117630],popup="A Luxembourg, le 28 avril 2020, 88 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([35.888599,14.447691],popup="A Malte, le 28 avril 2020, 4 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([47.181758,19.506093],popup="En Hongrie, le 28 avril 2020, 291 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([52.247649,5.541246],popup="Au Pays-Bas, le 28 avril 2020, 4582 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([52.215933,19.134422],popup="En Pologne, le 28 avril 2020, 570 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([39.824872,-8.408225],popup="Au Portugal, le 28 avril 2020, 948 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([49.816700,15.474954],popup="En République Tcheque, le 28 avril 2020, 223 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([45.985212,24.685922],popup="En Roumanie, le 28 avril 2020, 650 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([48.741152,19.452864],popup="En Slovaquie, le 28 avril 2020, 20 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([45.813311,14.480836],popup="En Slovenie, le 28 avril 2020, 86 morts on été causé au total par le Covid-19 ").add_to(c)
+folium.Marker([59.674971,14.520858],popup="En Suède, le 28 avril 2020, 2355 morts on été causé au total par le Covid-19 ").add_to(c)
+
+
+c.save('maCarte.html')
+
+

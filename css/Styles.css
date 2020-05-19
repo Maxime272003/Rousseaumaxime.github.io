@@ -1,0 +1,44 @@
+body{
+    background: url("https://img.freepik.com/vecteurs-libre/fond-blanc-elegant-lignes-brillantes_1017-17580.jpg?size=626&ext=jpg") ;
+    background-size: %;
+    margin-left: 100px
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+
+p,li{
+    font-size: 30px
+}
+
+h2{
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+    
+}
+
+img{
+    padding-left: 500px
+}
+
+embed{
+    padding-left: 400px
+}
+
+p.slt{
+    font-size: 20px
+}
+
+p.slts{
+    font-size: 20px;
+    
+    
+}
